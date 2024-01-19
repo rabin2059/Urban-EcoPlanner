@@ -2,6 +2,7 @@ body{
     background: url("/assets/image.jpg");
     font-family: Manrope, sans-serif;
     padding: 0 3rem 0 3rem;
+    position: relative;
 }
 
 a {
@@ -28,6 +29,43 @@ a {
     margin-left: 3rem;
     margin-right: 3rem;
 }
+
+.navbar .navtext a i{
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 8px;
+    border-color: black;
+}
+
+.navbar .navtext .user{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    z-index: 999;
+  }
+
+/* .navbar .navtext .user img{
+    border-radius: 2rem;
+    margin-top: 1rem;
+    width: 3rem;
+} */
+
+.user img {
+    max-width: 100%;
+    border-radius: 50%;
+  }
+  
+  .user p {
+    margin: 10px 0;
+  }
 
 .bodypart{
     display: flex;
@@ -58,10 +96,10 @@ a {
     margin-top: 2rem;
     background-color: #12940c;
     color: #fff;
-    font-size: .8rem;
-    padding: 10px 20px;
+    font-size: 1rem;
+    padding: 20px 30px;
     border: none;
-    border-radius: .7rem;
+    border-radius: 1.5rem;
     cursor: pointer;
     transition: background-color 0.3s;
     display: inline-block;
