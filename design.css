@@ -42,26 +42,23 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 9rem; width: 13rem;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 15%;
+    right: -6.5%;
     transform: translate(-50%, -50%);
-    background-color: #fff;
-    border: 1px solid #ccc;
+    background: rgb(207, 207, 207);
+    border: 1px solid #000000;
+    border-radius: 1rem;
     z-index: 999;
   }
 
-/* .navbar .navtext .user img{
+.navbar .navtext .user img{
+    border: 1px solid black;
     border-radius: 2rem;
-    margin-top: 1rem;
-    width: 3rem;
-} */
-
-.user img {
-    max-width: 100%;
-    border-radius: 50%;
-  }
+    margin-top: .7rem;
+    width: 5rem;
+}
   
   .user p {
     margin: 10px 0;
